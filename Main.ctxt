@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=Main
-comment0.text=\n\ Write\ a\ description\ of\ class\ Main\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ This\ code\ picks\ a\ random\ number\ between\ rangeMin\ and\ rangeMax\ inclusive.\n\ The\ player\ must\ guess\ the\ number\ when\ given\ clues\ of\ "Large\!"\ or\ "Too\ Small\!".\n\n\ @author\ (Alex\ Brown)\n\ @version\ (2019-05-22)\n
 comment1.params=
-comment1.target=Main()
+comment1.target=void\ Main()
 comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Main\n
-comment2.params=y
-comment2.target=int\ sampleMethod(int)
-comment2.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\n
+comment2.params=rMin\ rMax
+comment2.target=int\ randomNumber(int,\ int)
+comment2.text=\n\ Method\ to\ generate\ a\ random\ integer\ \n\ between\ rMin\ and\ rMax\ inclusive\n
 numComments=3
